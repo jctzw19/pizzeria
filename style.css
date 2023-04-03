@@ -1,0 +1,58 @@
+*{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url('tlo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#blok{
+    width: 80%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.712);
+    margin-left: auto;
+    margin-right: auto;
+}
+#mar, #cap, #par, #pep, #haw, #pro, #czt, #roma{
+    background-color: rgb(17, 17, 17);
+    width: 21%;
+    height: 250px;
+    padding: 10px;
+    margin: 8px;
+    box-shadow: black 5px 5px 10px;
+}
+#mar:hover, #cap:hover, #par:hover, #pep:hover, #haw:hover, #pro:hover, #czt:hover, #roma:hover{
+    background-color: rgb(160, 73, 2);
+}
+#mar, #cap, #par, #pep{
+    float: left;
+}
+#haw{
+    clear: both;
+}
+#haw, #pro, #czt, #roma{
+    float: left;
+}
+select{
+    background-color: rgb(26, 26, 26);
+}
+p{
+    color: rgb(143, 134, 123);
+    font-size: smaller;
+}
+button{
+    background-color: rgb(133, 65, 9);
+    border: outset;
+}
+button:hover{
+    background-color: rgb(255, 136, 0);
+    border: unset;
+}
+#pasek{
+    text-align: center;
+    word-spacing: 80px;
+}
+a{
+    text-decoration: none;
+}
